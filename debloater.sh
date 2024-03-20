@@ -1,25 +1,7 @@
-
 rm -f ./Contents/Frameworks/libMoltenVK.dylib
 rm -f ./Contents/Frameworks/libicudata.73.2.dylib
 rm -f ./Contents/Frameworks/libxml2.2.dylib
 rm -f ./Contents/SharedSupport/prefix/drive_c/users/Wineskin/AppData/Roaming/wine_gecko/places.sqlite
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/mscorlib.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/mscorwks.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/fusion.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/mscorlib.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/mscorwks.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/diasymreader.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/fusion.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/fusion.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/mscorlib.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/mscorwks.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/fusion.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/mscorlib.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/mscorwks.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/diasymreader.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/fusion.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/mscorlib.dll
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/resources/themes/light/light.msstyles
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/system32/d3d10.dll
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/system32/d3d10_1.dll
@@ -145,8 +127,6 @@ rm -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/gecko/plugin/npms
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/msxml3.dll
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/opengl32.dll
 rm -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/wined3d.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml3.dll
-rm -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml3.dll
 rm -f ./Contents/SharedSupport/wine/lib/external/D3DMetal.framework/Versions/A/D3DMetal
 rm -f ./Contents/SharedSupport/wine/lib/external/D3DMetal.framework/Versions/A/Resources/libdxcompiler.dylib
 rm -f ./Contents/SharedSupport/wine/lib/external/D3DMetal.framework/Versions/A/Resources/libmetalirconverter.dylib
@@ -1157,36 +1137,41 @@ rm -f ./Contents/SharedSupport/wine/lib/wine/x86_64-windows/xmllite.dll
 rm -f ./Contents/SharedSupport/wine/lib/wine/x86_64-windows/xolehlp.dll
 rm -f ./Contents/SharedSupport/wine/lib/wine/x86_64-windows/xpsprint.dll
 rm -f ./Contents/SharedSupport/wine/lib/wine/x86_64-windows/xpssvcs.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/AccessibleMarshal.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/browser/components/browsercomps.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/AccessibleMarshal.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/browser/components/browsercomps.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/browser/omni.ja
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/freebl3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/gmp-clearkey/0.1/clearkey.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/libEGL.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/libGLESv2.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/mozavcodec.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/mozavutil.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/nssckbi.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/nssdbm3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/omni.ja
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/softokn3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86/xul.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/AccessibleMarshal.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/browser/components/browsercomps.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/browser/omni.ja
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/freebl3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/gmp-clearkey/0.1/clearkey.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/lgpllibs.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/libEGL.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/libGLESv2.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/mozavcodec.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/mozavutil.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/mozglue.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/nss3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/nssckbi.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/nssdbm3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/omni.ja
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/softokn3.dll
+rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-*-x86_64/xul.dll
 rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/browser/omni.ja
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/freebl3.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/gmp-clearkey/0.1/clearkey.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/libEGL.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/libGLESv2.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/mozavcodec.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/mozavutil.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/nssckbi.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/nssdbm3.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/softokn3.dll
 rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86/xul.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/AccessibleMarshal.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/browser/components/browsercomps.dll
 rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/browser/omni.ja
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/freebl3.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/gmp-clearkey/0.1/clearkey.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/lgpllibs.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/libEGL.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/libGLESv2.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/mozavcodec.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/mozavutil.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/mozglue.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/nss3.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/nssckbi.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/nssdbm3.dll
-rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/softokn3.dll
 rm -f ./Contents/SharedSupport/wine/share/wine/gecko/wine-gecko-2.47.3-x86_64/xul.dll
-rm -f ./Wineskin.app/Contents/Resources/7z.so
 rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files (x86)/Internet Explorer/iexplore.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files (x86)/Viewpoint/Viewpoint Media Player/MtsAxInstaller.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files (x86)/Windows Media Player/wmplayer.exe'
@@ -1195,30 +1180,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files/Internet Explore
 rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files/Windows Media Player/wmplayer.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/Program Files/Windows NT/Accessories/wordpad.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/users/Wineskin/Temp/vwpt/MtsAxInstaller.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/aspnet_regiis.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/ngen.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/regsvcs.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/csc.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/installutil.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/ngen.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v2.0.50727/regasm.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v3.0/windows communication foundation/servicemodelreg.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v3.0/wpf/presentationfontcache.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/csc.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/installutil.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v4.0.30319/ngen.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/aspnet_regiis.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/ngen.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v1.1.4322/regsvcs.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/csc.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/installutil.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/ngen.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v2.0.50727/regasm.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v3.0/windows communication foundation/servicemodelreg.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v3.0/wpf/presentationfontcache.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/csc.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/installutil.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework64/v4.0.30319/ngen.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/hh.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/notepad.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/regedit.exe'
@@ -1460,7 +1421,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mciavi32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mcicda.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mciqtz32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mciseq.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mciwave.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mf.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mf3216.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mferror.dll'
@@ -1473,7 +1433,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mgmtapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/midimap.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mlang.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mmcndmgr.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mmdevapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mp3dmod.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/mprapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/system32/msacm32.drv'
@@ -1808,7 +1767,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/amstream.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/apphelp.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/appwiz.cpl'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/arp.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/atl100.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/atl110.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/atl80.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/atl90.dll'
@@ -1892,7 +1850,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/crtdll.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptdlg.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptdll.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptext.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptnet.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptowinrt.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptsp.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/cryptui.dll'
@@ -1963,7 +1920,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/eject.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/esent.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/evr.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/expand.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/explorerframe.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/extrac32.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/faultrep.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/fc.exe'
@@ -2021,7 +1977,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/ksuser.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/ktmw32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/l3codeca.acm'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/loadperf.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/localspl.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/localui.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/lodctr.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/lz32.dll'
@@ -2032,7 +1987,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mciavi32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mcicda.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mciqtz32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mciseq.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mciwave.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mf.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mf3216.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mferror.dll'
@@ -2045,7 +1999,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mgmtapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/midimap.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mlang.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mmcndmgr.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mmdevapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mmdevldr.vxd'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/monodebg.vxd'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mouse.drv'
@@ -2057,7 +2010,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msadp32.acm'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msasn1.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mscat32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mscms.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mscoree.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msctfmonitor.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msctfp.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msdelta.dll'
@@ -2067,7 +2019,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msftedit.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msg711.acm'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msgsm32.acm'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mshta.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/mshtml.tlb'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msidb.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/msident.dll'
@@ -2191,28 +2142,23 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/regedit.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/regini.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/regsvr32.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/resutils.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/riched20.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/riched32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/robocopy.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rsabase.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rsaenh.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rstrtmgr.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rtutils.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rtworkq.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/rundll32.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/samlib.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sas.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sc.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/scarddlg.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sccbase.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/schannel.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/schedsvc.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/schtasks.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/scrobj.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/scrrun.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sdbinst.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/secedit.exe'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/secur32.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/security.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sensapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/serialui.dll'
@@ -2230,12 +2176,10 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/slc.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/snmpapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/softpub.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sound.drv'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/spoolss.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sppc.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/srclient.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/srvcli.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sspicli.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/stdole2.tlb'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/stdole32.tlb'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/sti.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/storage.dll'
@@ -2281,7 +2225,7 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vcruntime140_
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vdhcp.vxd'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vdmdbg.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/ver.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vga.dll'rm -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET/Framework/v1.1.4322/fusion.dll
+rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vga.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/view.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/virtdisk.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/vmm.vxd'
@@ -2311,7 +2255,6 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/wimgapi.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/win32s16.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/win87em.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/winaspi.dll'
-rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/windebug.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/windows.devices.enumeration.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/windows.gaming.input.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/windows.gaming.ui.gamebar.dll'
@@ -2405,6 +2348,10 @@ rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/xpsprint.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/syswow64/xpssvcs.dll'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/winhelp.exe'
 rm -r -f './Contents/SharedSupport/prefix/drive_c/windows/winhlp32.exe'
+rm -r -f ./Contents/Frameworks/GStreamer.framework
+rm -r -f ./Contents/Frameworks/d3dmetal
+rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/Microsoft.NET
+rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/globalization
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/system32/msxml.dll
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/system32/msxml2.dll
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/system32/msxml4.dll
@@ -2415,20 +2362,6 @@ rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/msxml2.dll
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/msxml4.dll
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/msxml6.dll
 rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/syswow64/xmllite.dll
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml6.dll
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef/msxml4.dll
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/amd64_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/amd64_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/amd64_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/manifests/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef.manifest
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft-windows-msxml30_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft-windows-msxml60_31bf3856ad364e35_6.0.6000.16386_none_deadbeef/msxml6.dll
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef
-rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs/x86_microsoft.msxml2_6bd6b9abf345378f_4.1.0.0_none_deadbeef/msxml4.dll
-rm -r -f ./Contents/SharedSupport/wine/share/wine/mono/wine-mono-7.4.1
+rm -r -f ./Contents/SharedSupport/prefix/drive_c/windows/winsxs
+rm -r -f ./Contents/SharedSupport/wine/share/wine/mono/wine-mono-*
+rm -r -f ./Contents/Wineskin.app/Contents/Resources/7z*
