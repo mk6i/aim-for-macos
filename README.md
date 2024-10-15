@@ -80,4 +80,5 @@ Some new services have taken the place of AOL's AIM network after it shut down i
 - [AIM Oscar Server](https://github.com/ox/aim-oscar-server) - Run your own server for AIM 3.0 and older!
 - [AIM Phoenix](https://iwarg.ddns.net/) - AIM service with a small, active community.
 - [Running Man Instant Messenger Network](https://runningman.network/) - AIM service for AIM 3.0 and older (not
-  currently supported by this project's AIM client version). 
+  currently supported by this project's AIM client version).
+- [NINA](https://nina.chat/) - Classic Client Revival service that has support for AIM, including this version.
