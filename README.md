@@ -1,11 +1,12 @@
 # AIM for MacOS
 
-AIM for MacOS brings classic Windows AOL Instant Messenger to modern MacOS for both Intel and Apple Silicon platforms.
+AIM for MacOS brings classic Windows AIM to modern MacOS for both Intel and Apple Silicon platforms.
 
-<p align="center">
-   <img src="https://github.com/mk6i/aim-for-macos/assets/2894330/def7de4d-d4aa-4bdb-9987-ad5fd84aa0fa" alt="Screenshot of Windows AIM running on MacOS">
-</p>
 
+| Disclaimer                                                                                                                                                                                                                           |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| This project is an independent, open-source initiative and is not affiliated with, endorsed by, or associated with AOL or Yahoo! Inc. This project is entirely non-commercial and does not generate any revenue or accept donations. |
+| Note that this project does not include any prioprietary binaries, rather it provides a simplified means of acquiring AIM and instaling it on your computer. |
 ## Overview
 
 MacOS users who want to run Windows AIM typically do so on a clunky virtual machine. **AIM for MacOS** provides a MacOS
