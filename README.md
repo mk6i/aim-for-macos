@@ -5,8 +5,7 @@ AIM for MacOS brings classic Windows AIM to modern MacOS for both Intel and Appl
 
 | Disclaimer                                                                                                                                                                                                                           |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| This project is an independent, open-source initiative and is not affiliated with, endorsed by, or associated with AOL or Yahoo! Inc. This project is entirely non-commercial and does not generate any revenue or accept donations. |
-| Note that this project does not include any prioprietary binaries, rather it provides a simplified means of acquiring AIM and instaling it on your computer. |
+| This project is an independent, open-source initiative and is not affiliated with, endorsed by, or associated with AOL or Yahoo! Inc. This project is entirely non-commercial and does not generate any revenue or accept donations. Note that this project does not include any prioprietary binaries. Rather, it provides a simplified means of acquiring AIM and installing it on your macOS computer. |
 ## Overview
 
 MacOS users who want to run Windows AIM typically do so on a clunky virtual machine. **AIM for MacOS** provides a MacOS
@@ -77,9 +76,8 @@ The following explains how to configure the wrapper `.app` and install AIM insid
 
 Some new services have taken the place of AOL's AIM network after it shut down in 2017.
 
-- [Retro AIM Server](https://github.com/mk6i/retro-aim-server) - Run your own server for AIM 5.0-5.9!
+- [Open OSCAR Server](https://github.com/mk6i/open-oscar-server) - Run your own AIM server!
 - [AIM Oscar Server](https://github.com/ox/aim-oscar-server) - Run your own server for AIM 3.0 and older!
 - [AIM Phoenix](https://iwarg.ddns.net/) - AIM service with a small, active community.
 - [Running Man Instant Messenger Network](https://runningman.network/) - AIM service for AIM 3.0 and older (not
   currently supported by this project's AIM client version).
-- [NINA](https://nina.chat/) - Classic Client Revival service that has support for AIM, including this version.
